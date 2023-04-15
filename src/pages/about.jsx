@@ -42,10 +42,7 @@ export default function About() {
     <>
       <Head>
         <title>About - Danferth</title>
-        <meta
-          name="description"
-          content="I’m Danferth. I live in Southern California, this is playing with a template."
-        />
+        <meta name="description" content="This is playing with a template." />
       </Head>
       <Container className="mt-16 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
@@ -61,8 +58,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Danferth. I live in Southern California, this is playing with
-              a template.
+              This is playing with a template.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>content</p>
@@ -85,11 +81,11 @@ export default function About() {
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:dan@danferth.dev"
+                href="https://danferth.com/contact"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                dan@danferth.dev
+                Inqueries on danferth.com
               </SocialLink>
             </ul>
           </div>
