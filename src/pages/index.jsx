@@ -12,10 +12,10 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoAkillustraions from '@/images/logos/akillustraions.svg'
+import logoSignarama from '@/images/logos/signarama.svg'
+import logoTic from '@/images/logos/tic.svg'
+import logoHunterlegal from '@/images/logos/hunterlegal.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
 import { formatDate } from '@/lib/formatDate'
@@ -135,35 +135,35 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Thomson Instrument Company',
+      title: 'Lead Developer & Designer',
+      logo: logoTic,
+      start: '2010',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'AK Illustraions',
+      title: 'Freelance Business',
+      logo: logoAkillustraions,
+      start: '2009',
+      end: '2010',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Sign A Rama',
+      title: 'Project Manager & Lead Designer',
+      logo: logoSignarama,
+      start: '2005',
+      end: '2009',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'Hunter Legal Graphics',
+      title: 'Graphic Designer & Technical Illustrator',
+      logo: logoHunterlegal,
+      start: '2004',
+      end: '2008',
     },
   ]
 
