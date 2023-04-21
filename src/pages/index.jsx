@@ -112,20 +112,27 @@ function Newsletter() {
     reset,
     formState: { isSubmitted },
   } = useForm()
-  const onSubmit = async (data) => {
-    await axios({
+  const onSubmit = (data) => {
+    console.log('data', data)
+    console.log('process.env.NEWSLETTER_URL', process.env.NEWSLETTER_URL)
+    axios({
       method: 'post',
       url: process.env.NEWSLETTER_URL,
       data: {
         ...data,
       },
-    }).then(function (response) {
-      response.status === 200 &&
-        reset(
-          { newsletterEmail: 'Thanks, your on the list!' },
-          { keepDefaultValues: true, keepIsSubmitted: true }
-        )
     })
+      .then(function (response) {
+        console.log(response)
+        response.status === 200 &&
+          reset(
+            { newsletterEmail: 'Thanks, your on the list!' },
+            { keepDefaultValues: true, keepIsSubmitted: true }
+          )
+      })
+      .catch(function (error) {
+        console.log('error', error)
+      })
   }
 
   return (
