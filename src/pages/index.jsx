@@ -112,10 +112,10 @@ function Newsletter() {
     reset,
     formState: { isSubmitted },
   } = useForm()
-  const onSubmit = (data) => {
+  const onSubmit = async (data) => {
     console.log('data', data)
     console.log('process.env.NEWSLETTER_URL', process.env.NEWSLETTER_URL)
-    axios({
+    await axios({
       method: 'post',
       url: process.env.NEWSLETTER_URL,
       data: {
