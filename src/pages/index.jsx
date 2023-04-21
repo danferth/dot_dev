@@ -112,8 +112,8 @@ function Newsletter() {
     reset,
     formState: { isSubmitted },
   } = useForm()
-  const onSubmit = (data) => {
-    axios({
+  const onSubmit = async (data) => {
+    await axios({
       method: 'post',
       url: process.env.NEWSLETTER_URL,
       data: {
@@ -126,9 +126,6 @@ function Newsletter() {
           { keepDefaultValues: true, keepIsSubmitted: true }
         )
     })
-    // check if went through
-
-    // clear form
   }
 
   return (
