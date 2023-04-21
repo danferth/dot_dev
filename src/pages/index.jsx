@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
 import clsx from 'clsx'
+import axios from 'axios'
+import { useForm } from 'react-hook-form'
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
@@ -104,9 +106,34 @@ function SocialLink({ icon: Icon, ...props }) {
 }
 
 function Newsletter() {
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { isSubmitted },
+  } = useForm()
+  const onSubmit = (data) => {
+    axios({
+      method: 'post',
+      url: 'process.env.NEWSLETTER_URL',
+      data: {
+        ...data,
+      },
+    }).then(function (response) {
+      response.status === 200 &&
+        reset(
+          { newsletterEmail: 'Thanks, your on the list!' },
+          { keepDefaultValues: true, keepIsSubmitted: true }
+        )
+    })
+    // check if went through
+
+    // clear form
+  }
+
   return (
     <form
-      action="/thank-you"
+      onSubmit={handleSubmit(onSubmit)}
       className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
@@ -118,13 +145,17 @@ function Newsletter() {
       </p>
       <div className="mt-6 flex">
         <input
+          name="newsletterEmail"
           type="email"
+          defaultValue=""
           placeholder="Email address"
           aria-label="Email address"
           required
-          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
+          disabled={isSubmitted}
+          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 disabled:text-zinc-400 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm"
+          {...register('newsletterEmail', { required: true })}
         />
-        <Button type="submit" className="ml-4 flex-none">
+        <Button type="submit" className="ml-4 flex-none" disabled={isSubmitted}>
           Join
         </Button>
       </div>
