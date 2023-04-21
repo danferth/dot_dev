@@ -115,7 +115,7 @@ function Newsletter() {
   const onSubmit = (data) => {
     axios({
       method: 'post',
-      url: 'process.env.NEWSLETTER_URL',
+      url: process.env.NEWSLETTER_URL,
       data: {
         ...data,
       },
