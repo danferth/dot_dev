@@ -52,14 +52,15 @@ export default function Document() {
           href={`${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.json`}
         />
         {/* <!-- Google tag (gtag.js) --> */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H5H2EDF5QW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H5H2EDF5QW');
-</script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-H5H2EDF5QW"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || [] function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()) gtag('config', 'G-H5H2EDF5QW')
+        </script>
       </Head>
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">
         <Main />
