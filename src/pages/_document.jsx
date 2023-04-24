@@ -51,21 +51,21 @@ export default function Document() {
           type="application/feed+json"
           href={`${process.env.NEXT_PUBLIC_SITE_URL}/rss/feed.json`}
         />
-      </Head>
-      {/* <!-- Google tag (gtag.js) --> */}
-      <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-H5H2EDF5QW"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
+        {/* <!-- Google tag (gtag.js) --> */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-H5H2EDF5QW"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
           window.dataLayer = window.dataLayer || []
           function gtag(){dataLayer.push(arguments)}
           gtag('js', new Date())
 
           gtag('config', 'G-H5H2EDF5QW')
         `}
-      </Script>
+        </Script>
+      </Head>
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">
         <Main />
         <NextScript />
