@@ -56,7 +56,7 @@ export default function Document() {
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-H5H2EDF5QW"
         ></Script>
-        <Script Script id="google-analytics" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -64,6 +64,14 @@ export default function Document() {
 
           gtag('config', 'G-H5H2EDF5QW');
         `}
+        </Script>
+
+        {/* export const isDevEnvironment = process && process.env.NODE_ENV === "development"; */}
+        <Script>
+          {`
+          console.log("process.env.NODE_ENV", process.env.NODE_ENV)
+          console.log("Hello")
+          `}
         </Script>
       </Head>
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">
