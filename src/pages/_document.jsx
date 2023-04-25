@@ -65,14 +65,14 @@ export default function Document() {
           gtag('config', 'G-H5H2EDF5QW');
         `}
         </Script>
-
-        {/* export const isDevEnvironment = process && process.env.NODE_ENV === "development"; */}
-        <Script>
+        <Script id="env_test">
           {`
-          console.log("process.env.NODE_ENV", process.env.NODE_ENV)
-          console.log("Hello")
+          console.log('hello')
+  console.log('process.env.NODE_ENV', process.env.NODE_ENV)
           `}
         </Script>
+
+        {/* export const isDevEnvironment = process && process.env.NODE_ENV === "development"; */}
       </Head>
       <body className="flex h-full flex-col bg-zinc-50 dark:bg-black">
         <Main />
