@@ -52,12 +52,12 @@ export default function Uses() {
               design stupid? Yes, but the gestures make up for it.
             </Tool>
             <Tool title="Apple Magic Keyboard">
-              Didn't feel the need to leave the ecosystem for the keyboard once
-              I bought into the mouse.
+              Didn&apos;t feel the need to leave the ecosystem for the keyboard
+              once I bought into the mouse.
             </Tool>
             <Tool title="LG 29” wall mounted monitor">
-              You have to be kidding yourself if you think I'm staring at a 13”
-              MacBook all day.
+              You have to be kidding yourself if you think I&apos;m staring at a
+              13” MacBook all day.
             </Tool>
             <Tool title="IK Mulitmedia iRIG Keys I/O 49">
               Great keyboard also use it as my interface for guitar and mics and
@@ -67,8 +67,8 @@ export default function Uses() {
               Sound good enough to my deaf ears.
             </Tool>
             <Tool title="Standing Desk with ergoDriven Topo Comfort Mat">
-              Love the standing desk, with the ergo mat I don't ever feel the
-              need to sit.
+              Love the standing desk, with the ergo mat I don&apos;t ever feel
+              the need to sit.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
