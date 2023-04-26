@@ -29,88 +29,61 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Spencer Sharp</title>
+        <title>Uses - Danferth</title>
         <meta
           name="description"
-          content="Software I use, gadgets I love, and other things I recommend."
+          content="Software I use, and gadgets at my desk, but nothing I would recommend."
         />
       </Head>
       <SimpleLayout
-        title="Software I use, gadgets I love, and other things I recommend."
-        intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+        title="Software I use, and gadgets at my desk, but nothing I would recommend."
+        intro="Nobody asks about the things I use to build websites or anything of the sort. But this template already had this section and I didn't feel like coming up with anything else."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
-            <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-              I was using an Intel-based 16” MacBook Pro prior to this and the
-              difference is night and day. I’ve never heard the fans turn on a
-              single time, even under the incredibly heavy loads I put it
-              through with our various launch simulations.
+            <Tool title="13” MacBook Pro Intel Core i7 8 GB (2019)">
+              Fast enough for Logic X and all my development work, no
+              complaints. When I used PCs it felt like there was always a need
+              to upgrade, not with this.
             </Tool>
-            <Tool title="Apple Pro Display XDR (Standard Glass)">
-              The only display on the market if you want something HiDPI and
-              bigger than 27”. When you’re working at planetary scale, every
-              pixel you can get counts.
+            <Tool title="Apple Magic Mouse">
+              Has its fare share of haters but charging it once every four
+              months during my lunch break is not that big of a deal. Is the
+              design stupid? Yes, but the gestures make up for it.
             </Tool>
-            <Tool title="IBM Model M SSK Industrial Keyboard">
-              They don’t make keyboards the way they used to. I buy these any
-              time I see them go up for sale and keep them in storage in case I
-              need parts or need to retire my main.
+            <Tool title="Apple Magic Keyboard">
+              Didn't feel the need to leave the ecosystem for the keyboard once
+              I bought into the mouse.
             </Tool>
-            <Tool title="Apple Magic Trackpad">
-              Something about all the gestures makes me feel like a wizard with
-              special powers. I really like feeling like a wizard with special
-              powers.
+            <Tool title="LG 29” wall mounted monitor">
+              You have to be kidding yourself if you think I'm staring at a 13”
+              MacBook all day.
             </Tool>
-            <Tool title="Herman Miller Aeron Chair">
-              If I’m going to slouch in the worst ergonomic position imaginable
-              all day, I might as well do it in an expensive chair.
+            <Tool title="IK Mulitmedia iRIG Keys I/O 49">
+              Great keyboard also use it as my interface for guitar and mics and
+              to trigger MIDI with the pads.
+            </Tool>
+            <Tool title="PreSonus Eris E3.5-3.5” Near Field Studio Monitors">
+              Sound good enough to my deaf ears.
+            </Tool>
+            <Tool title="Standing Desk with ergoDriven Topo Comfort Mat">
+              Love the standing desk, with the ergo mat I don't ever feel the
+              need to sit.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
-              I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
-              editor ever made.
+            <Tool title="Visual Studio Code">
+              A tool I use, it used to be Sublime Text if that makes you feel
+              better.
             </Tool>
-            <Tool title="iTerm2">
-              I’m honestly not even sure what features I get with this that
-              aren’t just part of the macOS Terminal but it’s what I use.
-            </Tool>
-            <Tool title="TablePlus">
-              Great software for working with databases. Has saved me from
-              building about a thousand admin interfaces for my various projects
-              over the years.
+            <Tool title="iTerm2">Everyone said to use it, so here we are.</Tool>
+            <Tool title="Chrome">
+              I know Firefox Developer edition is the new hot potato, but Google
+              just knows me.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Design">
-            <Tool title="Figma">
-              We started using Figma as just a design tool but now it’s become
-              our virtual whiteboard for the entire company. Never would have
-              expected the collaboration features to be the real hook.
-            </Tool>
-          </ToolsSection>
-          <ToolsSection title="Productivity">
-            <Tool title="Alfred">
-              It’s not the newest kid on the block but it’s still the fastest.
-              The Sublime Text of the application launcher world.
-            </Tool>
-            <Tool title="Reflect">
-              Using a daily notes system instead of trying to keep things
-              organized by topics has been super powerful for me. And with
-              Reflect, it’s still easy for me to keep all of that stuff
-              discoverable by topic even though all of my writing happens in the
-              daily note.
-            </Tool>
-            <Tool title="SavvyCal">
-              Great tool for scheduling meetings while protecting my calendar
-              and making sure I still have lots of time for deep work during the
-              week.
-            </Tool>
-            <Tool title="Focus">
-              Simple tool for blocking distracting websites when I need to just
-              do the work and get some momentum going.
-            </Tool>
+            <Tool title="Pencile & Paper">Tired and true, what can I say.</Tool>
           </ToolsSection>
         </div>
       </SimpleLayout>
