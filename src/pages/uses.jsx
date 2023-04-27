@@ -47,7 +47,7 @@ export default function Uses() {
               to upgrade, not with this.
             </Tool>
             <Tool title="Apple Magic Mouse">
-              Has its fare share of haters but charging it once every four
+              Has its fair share of haters but charging it once every four
               months during my lunch break is not that big of a deal. Is the
               design stupid? Yes, but the gestures make up for it.
             </Tool>
@@ -58,13 +58,6 @@ export default function Uses() {
             <Tool title="LG 29” wall mounted monitor">
               You have to be kidding yourself if you think I&apos;m staring at a
               13” MacBook all day.
-            </Tool>
-            <Tool title="IK Mulitmedia iRIG Keys I/O 49">
-              Great keyboard also use it as my interface for guitar and mics and
-              to trigger MIDI with the pads.
-            </Tool>
-            <Tool title="PreSonus Eris E3.5-3.5” Near Field Studio Monitors">
-              Sound good enough to my deaf ears.
             </Tool>
             <Tool title="Standing Desk with ergoDriven Topo Comfort Mat">
               Love the standing desk, with the ergo mat I don&apos;t ever feel
@@ -84,6 +77,29 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Design">
             <Tool title="Pencile & Paper">Tired and true, what can I say.</Tool>
+          </ToolsSection>
+          <ToolsSection title="Music Production">
+            <Tool title="Logic Pro">
+              No brainer on this one. You may like Pro Tools or Reaper, this
+              just works for me.
+            </Tool>
+            <Tool title="Neural DSP Tone King Imperial MKII">
+              A digital version of my desert island rig.
+            </Tool>
+            <Tool title="Nueral Amp Modeler (Plug-In)">
+              Free, open source, awesome community of profilers, endless tones.
+            </Tool>
+            <Tool title="Decent Sampler (Plug-In)">
+              The work David Hilowitz has put into this project is inspiring, to
+              say the least.
+            </Tool>
+            <Tool title="IK Mulitmedia iRIG Keys I/O 49">
+              Great keyboard also use it as my interface for guitar and to
+              trigger MIDI with the pads.
+            </Tool>
+            <Tool title="PreSonus Eris E3.5-3.5” Near Field Studio Monitors">
+              Sound good enough to my deaf ears.
+            </Tool>
           </ToolsSection>
         </div>
       </SimpleLayout>
