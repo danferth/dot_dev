@@ -190,13 +190,6 @@ function Resume() {
       start: '2005',
       end: '2009',
     },
-    {
-      company: 'Hunter Legal Graphics',
-      title: 'Graphic Designer & Technical Illustrator',
-      logo: logoHunterlegal,
-      start: '2004',
-      end: '2008',
-    },
   ]
 
   return (
@@ -284,7 +277,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Frontend Developer, Designer, Amature Luthier.
+            Frontend Developer, Amature Luthier.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             This is me playing with a template may become something, probably
