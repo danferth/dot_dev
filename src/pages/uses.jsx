@@ -47,8 +47,8 @@ export default function Uses() {
               to upgrade, not with this.
             </Tool>
             <Tool title="Apple Magic Mouse">
-              Has its fair share of haters but charging it once every four
-              months during my lunch break is not that big of a deal. Is the
+              Has its fair share of haters but charging it once every other
+              month during my lunch break is not that big of a deal. Is the
               design stupid? Yes, but the gestures make up for it.
             </Tool>
             <Tool title="Apple Magic Keyboard">
@@ -86,8 +86,9 @@ export default function Uses() {
             <Tool title="Neural DSP Tone King Imperial MKII">
               A digital version of my desert island rig.
             </Tool>
-            <Tool title="Nueral Amp Modeler (Plug-In)">
-              Free, open source, awesome community of profilers, endless tones.
+            <Tool title="MixWave Milkman Creamer Collection">
+              Fender cleans and a set of JHS pedals, a rig that's inspiring to
+              play.
             </Tool>
             <Tool title="Decent Sampler (Plug-In)">
               The work David Hilowitz has put into this project is inspiring, to
