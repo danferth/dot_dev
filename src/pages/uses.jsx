@@ -87,8 +87,8 @@ export default function Uses() {
               A digital version of my desert island rig.
             </Tool>
             <Tool title="MixWave Milkman Creamer Collection">
-              Fender cleans and a set of JHS pedals, a rig that's inspiring to
-              play.
+              Fender cleans and a set of JHS pedals, a rig that&apos;s inspiring
+              to play.
             </Tool>
             <Tool title="Decent Sampler (Plug-In)">
               The work David Hilowitz has put into this project is inspiring, to
