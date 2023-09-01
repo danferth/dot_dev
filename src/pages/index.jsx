@@ -276,11 +276,16 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Frontend Developer, Amature Luthier.
+            Frontend Developer, Slide Player & Amature Luthier.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            This is me playing with a template may become something, probably
-            not.
+            Having worked in content creation, design, and development
+            throughout my career and tackling the creative challenges posed
+            across various industries, I am confident in boring you with
+            technical details you care nothing about. Honestly, you could go to
+            linkedIn if you wanted job skills and achievements ad nauseam. This
+            is a place for me to show I kinda know what I'm doing and trying to
+            have fun at the same time.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

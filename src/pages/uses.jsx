@@ -37,7 +37,7 @@ export default function Uses() {
       </Head>
       <SimpleLayout
         title="Software I use, and gadgets at my desk, but nothing I would recommend."
-        intro="Nobody asks about the things I use to build websites or anything of the sort. But this template already had this section and I didn't feel like coming up with anything else."
+        intro="Nobody asks about the things I use to build websites or anything of the sort. But the template already had this section and I didn't feel like coming up with anything else. So here's a list of my stuff, sorry, no affiliate links."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
