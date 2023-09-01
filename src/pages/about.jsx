@@ -63,11 +63,11 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Why do they feel you want to visit an “about" page about some
-                random dude? You are probably here cause you are a recruiter, a
-                coworker, or it&apos;s 3am and you&apos;re lost on the internet.
-                So, please hire me, don&apos;t tell John about this site, and
-                put the bowl down and go to sleep.
+                Why do they feel you want to visit an &quot;about&quot; page
+                about some random dude? You are probably here cause you are a
+                recruiter, a coworker, or it&apos;s 3am and you&apos;re lost on
+                the internet. So, please hire me, don&apos;t tell John about
+                this site, and put the bowl down and go to sleep.
               </p>
 
               <p>
