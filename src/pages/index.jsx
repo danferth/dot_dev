@@ -284,8 +284,8 @@ export default function Home({ articles }) {
             across various industries, I am confident in boring you with
             technical details you care nothing about. Honestly, you could go to
             linkedIn if you wanted job skills and achievements ad nauseam. This
-            is a place for me to show I kinda know what I'm doing and trying to
-            have fun at the same time.
+            is a place for me to show I kinda know what I&apos;m doing and
+            trying to have fun at the same time.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

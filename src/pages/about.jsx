@@ -58,22 +58,22 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Look I thought I addressed things on the home page already, here's
-              more about me I guess
+              Look I thought I addressed things on the home page already,
+              here&apos;s more about me I guess
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
                 Why do they feel you want to visit an “about" page about some
                 random dude? You are probably here cause you are a recruiter, a
-                coworker, or it's 3am and you're lost on the internet. So,
-                please hire me, don't tell John about this site, and put the
-                bowl down and go to sleep.
+                coworker, or it&apos;s 3am and you&apos;re lost on the internet.
+                So, please hire me, don&apos;t tell John about this site, and
+                put the bowl down and go to sleep.
               </p>
 
               <p>
-                If you've made it this far and didn't clutch your proverbial
-                pearls, you can sleep safe at night knowing this is all mostly
-                sarcasm as I have no time for bullshit or cheep beer.
+                If you&apos;ve made it this far and didn&apos;t clutch your
+                proverbial pearls, you can sleep safe at night knowing this is
+                all mostly sarcasm as I have no time for bullshit or cheep beer.
               </p>
             </div>
           </div>
