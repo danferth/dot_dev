@@ -58,22 +58,33 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Look I thought I addressed things on the home page already,
-              here&apos;s more about me I guess
+              Sometimes you just need to pretend your a spaceman on a very
+              important mission
+              <br />
+              <span className="text-teal-400">
+                Maybe just not in public though
+              </span>
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>
-                Why do they feel you want to visit an &quot;about&quot; page
-                about some random dude? You are probably here cause you are a
-                recruiter, a coworker, or it&apos;s 3am and you&apos;re lost on
-                the internet. So, please hire me, don&apos;t tell John about
-                this site, and put the bowl down and go to sleep.
-              </p>
-
               <p>
                 If you&apos;ve made it this far and didn&apos;t clutch your
                 proverbial pearls, you can sleep safe at night knowing this is
                 all mostly sarcasm as I have no time for bullshit or cheep beer.
+              </p>
+              <p>
+                This site was intended for me to poke a bit of fun at the idea
+                of &quot;portfolio&quot; or &quot;blog&quot; sites developers
+                suposedlly all have. To the point that recuters and prospective
+                employers want to see it. So here is my attempt at producing
+                such a site.
+              </p>
+              <p>
+                I wonder if they read the site and use it to help understand the
+                person, their attitude toward life, work, and how they might fit
+                in with the organization.....
+              </p>
+              <p>
+                <i>Well I guess I&apos;m fucked</i> 😜
               </p>
             </div>
           </div>

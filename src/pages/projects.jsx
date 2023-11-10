@@ -3,47 +3,23 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAnimaginary from '@/images/logos/animaginary.svg'
-import logoCosmos from '@/images/logos/cosmos.svg'
-import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoAkio from '@/images/logos/akillustrations.svg'
+import logoTic from '@/images/logos/tic.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'htslabs.com',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Designed & coded in gatsby and styled with Tailwindcss.  This is my current job.',
+    link: { href: 'https://htslabs.com', label: 'htslabs.com' },
+    logo: logoTic,
   },
   {
-    name: 'Animaginary',
+    name: 'Friday Countdown',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
-  },
-  {
-    name: 'HelioStream',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
-  {
-    name: 'cosmOS',
-    description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+      'Countdown to Friday 5:00PM & a daily Yeezy quote to brighten your day.',
+    link: { href: 'https://friday.danferth.dev', label: 'friday.com' },
+    logo: logoAkio,
   },
 ]
 
@@ -69,8 +45,8 @@ export default function Projects() {
         />
       </Head>
       <SimpleLayout
-        title="Here is the portfolio we feel pressured to provide prospective employers"
-        intro="Built quite a few things over the years.  Here is a selection of some recent items you could say I am proud of. If you're here I linked this page in a job inquiry or you're way more curious about me than you should be."
+        title="Here is the portfolio we feel pressured to provide recruiters"
+        intro="Here are some recent items you could say I am proud of and show my proficiency with modern frameworks, libraries, methods and whatnot. I'm always open to conversation if you have questions or comments on any of these projects."
       >
         <ul
           role="list"

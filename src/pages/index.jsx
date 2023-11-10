@@ -14,7 +14,7 @@ import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
-import logoAkillustraions from '@/images/logos/akillustraions.svg'
+import logoAkillustrations from '@/images/logos/akillustrations.svg'
 import logoSignarama from '@/images/logos/signarama.svg'
 import logoTic from '@/images/logos/tic.svg'
 import { generateRssFeed } from '@/lib/generateRssFeed'
@@ -178,7 +178,7 @@ function Resume() {
     {
       company: 'AK Illustraions',
       title: 'Freelance Business',
-      logo: logoAkillustraions,
+      logo: logoAkillustrations,
       start: '2009',
       end: '2010',
     },
