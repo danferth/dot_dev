@@ -46,7 +46,7 @@ export default function Projects() {
       </Head>
       <SimpleLayout
         title="Here is the portfolio we feel pressured to provide recruiters"
-        intro="Here are some recent items you could say I am proud of and show my proficiency with modern frameworks, libraries, methods and whatnot. I'm always open to conversation if you have questions or comments on any of these projects."
+        intro="Some recent items you could say I'm proud of and show my proficiency with modern frameworks, libraries, methods, and whatnot. I'm always open to conversation if you have questions or comments on any of these projects."
       >
         <ul
           role="list"

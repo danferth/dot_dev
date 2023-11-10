@@ -41,12 +41,12 @@ export default function ArticlesIndex({ articles }) {
         <title>Articles - Danferth</title>
         <meta
           name="description"
-          content="Curated articles on guitars, gear, and why I feel compelled to have a blog I care nothing about."
+          content="You won't find articles about the new shiny framework that gets interns running in circles. Just thoughts & observations."
         />
       </Head>
       <SimpleLayout
-        title="They say you have to have a blog. Who the hell is they anyway?"
-        intro="Yes, I write code for a living. Doesn't mean I want to write articles about the new shiny thing that gets interns running in circles. Here are curated articles on guitars, gear, and why I feel compelled to have a blog I care nothing about."
+        title="Read at your own risk, it seems my sarcasm knows no bounds"
+        intro="You won't find articles about the new shiny framework that gets interns running in circles. Just thoughts & observations."
       >
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
           <div className="flex max-w-3xl flex-col space-y-16">

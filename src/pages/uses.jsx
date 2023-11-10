@@ -32,12 +32,12 @@ export default function Uses() {
         <title>Uses - Danferth</title>
         <meta
           name="description"
-          content="Software I use, and gadgets at my desk, but nothing I would recommend."
+          content="Software I use, and gadgets at my desk, but nothing I would recommend"
         />
       </Head>
       <SimpleLayout
-        title="Software I use, and gadgets at my desk, but nothing I would recommend."
-        intro="Nobody asks about the things I use to build websites or anything of the sort. But the template already had this section and I didn't feel like coming up with anything else. So here's a list of my stuff, sorry, no affiliate links."
+        title="Software I use, and gadgets at my desk, but nothing I would recommend"
+        intro="Nobody ever asked about the things I use to build websites or anything of the sort. But the template already had this section and I didn't feel like coming up with anything else. So here's a list of my stuff, sorry, no affiliate links."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">
@@ -47,9 +47,9 @@ export default function Uses() {
               to upgrade, not with this.
             </Tool>
             <Tool title="Apple Magic Mouse">
-              Has its fair share of haters but charging it once every other
-              month during my lunch break is not that big of a deal. Is the
-              design stupid? Yes, but the gestures make up for it.
+              Has its fair share of haters but charging it once a month during
+              my lunch break is not that big of a deal. Is the design stupid?
+              Yes, but the gestures make up for it.
             </Tool>
             <Tool title="Apple Magic Keyboard">
               Didn&apos;t feel the need to leave the ecosystem for the keyboard
@@ -66,13 +66,12 @@ export default function Uses() {
           </ToolsSection>
           <ToolsSection title="Development tools">
             <Tool title="Visual Studio Code">
-              A tool I use, it used to be Sublime Text if that makes you feel
-              better.
+              A tool I use to build websites, it used to be Sublime Text if that
+              makes you feel better.
             </Tool>
             <Tool title="iTerm2">Everyone said to use it, so here we are.</Tool>
-            <Tool title="Chrome">
-              I know Firefox Developer edition is the new hot potato, but Google
-              just knows me.
+            <Tool title="Xcode">
+              Lately, I&apos;ve been digging into Swift and iOS development.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Design">
@@ -84,11 +83,11 @@ export default function Uses() {
               just works for me.
             </Tool>
             <Tool title="Neural DSP Tone King Imperial MKII">
-              A digital version of my desert island rig.
+              Digital version of my desert island rig.
             </Tool>
             <Tool title="MixWave Milkman Creamer Collection">
-              Fender cleans and a set of JHS pedals, a rig that&apos;s inspiring
-              to play.
+              Fender cleans and a set of JHS pedals, a rig that&apos;s very
+              inspiring to play.
             </Tool>
             <Tool title="Decent Sampler (Plug-In)">
               The work David Hilowitz has put into this project is inspiring, to
