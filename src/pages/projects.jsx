@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import logoAkio from '@/images/logos/akillustrations.svg'
+import CountdownIcon from '@/images/logos/Countdownicon.svg'
 import logoTic from '@/images/logos/tic.svg'
 
 const projects = [
@@ -19,7 +19,7 @@ const projects = [
     description:
       'Countdown to Friday 5:30PM & a daily Yeezy quote to brighten your day.',
     link: { href: 'https://countdown.danferth.dev', label: 'countdown.dev' },
-    logo: logoAkio,
+    logo: CountdownIcon,
   },
 ]
 
