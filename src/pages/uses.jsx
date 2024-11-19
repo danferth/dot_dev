@@ -89,6 +89,9 @@ export default function Uses() {
               Fender cleans and a set of JHS pedals, a rig that&apos;s very
               inspiring to play.
             </Tool>
+            <Tool title="MixWave Morgan Amps Collection">
+              Just inspiring to play.
+            </Tool>
             <Tool title="Decent Sampler (Plug-In)">
               The work David Hilowitz has put into this project is inspiring, to
               say the least.

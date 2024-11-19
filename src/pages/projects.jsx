@@ -15,10 +15,10 @@ const projects = [
     logo: logoTic,
   },
   {
-    name: 'Friday Countdown',
+    name: 'Countdown',
     description:
-      'Countdown to Friday 5:00PM & a daily Yeezy quote to brighten your day.',
-    link: { href: 'https://friday.danferth.dev', label: 'friday.com' },
+      'Countdown to Friday 5:30PM & a daily Yeezy quote to brighten your day.',
+    link: { href: 'https://countdown.danferth.dev', label: 'countdown.dev' },
     logo: logoAkio,
   },
 ]
