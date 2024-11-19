@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import CountdownIcon from '@/images/logos/Countdownicon.svg'
+import CountdownIcon from '@/images/logos/CountdownIcon.svg'
 import logoTic from '@/images/logos/tic.svg'
 
 const projects = [
