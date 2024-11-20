@@ -67,24 +67,15 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                If you&apos;ve made it this far and didn&apos;t clutch your
-                proverbial pearls, you can sleep safe at night knowing this is
-                all mostly sarcasm as I have no time for bullshit or cheep beer.
+                This site was intended as a way to poke a bit of fun at the idea
+                of &quot;portfolio&quot; and &quot;blog&quot; sites developers
+                often have. It&apos;s all in good fun cause in the end I now
+                have one.
               </p>
               <p>
-                This site was intended for me to poke a bit of fun at the idea
-                of &quot;portfolio&quot; or &quot;blog&quot; sites developers
-                suposedlly all have. To the point that recuters and prospective
-                employers want to see it. So here is my attempt at producing
-                such a site.
-              </p>
-              <p>
-                I wonder if they read the site and use it to help understand the
-                person, their attitude toward life, work, and how they might fit
-                in with the organization.....
-              </p>
-              <p>
-                <i>Well I guess I&apos;m fucked</i> 😜
+                Outside of developing websites, I like to spend my free time
+                breadboarding audio circuits, making noise in open tunings, and
+                just enjoying life with my wife and our two dogs.
               </p>
             </div>
           </div>
